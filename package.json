@@ -1,24 +1,25 @@
 {
   "name": "warp5-rentals-backend",
   "version": "1.0.0",
-  "description": "Backend for WARP5 Rentals",
+  "description": "Backend API for WARP5 Rentals",
   "main": "src/server.js",
   "type": "module",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "render-build": "npm install"
   },
   "dependencies": {
-    "bcryptjs": "^3.0.3",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.6.1",
-    "express": "^4.21.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
-    "multer": "^2.0.2",
-    "pg": "^8.16.3"
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.3"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.x"
   },
   "keywords": [],
   "author": "Bright Obeng",
