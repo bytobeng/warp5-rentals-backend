@@ -1,14 +1,23 @@
 {
-  "name": "backend",
+  "name": "warp5-rentals-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend for WARP5 Rentals",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"
   },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "pg": "^8.11.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Bright Obeng",
   "license": "ISC"
 }
